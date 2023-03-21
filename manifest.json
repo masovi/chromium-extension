@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Chromium extension example",
+    "version": "1.0",
+    "description": "Simple extension for chromium browsers",
+    "icons": {
+        "128": "avatar.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

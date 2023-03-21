@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 300px;
+    background: #F9F9FF;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.image {
+    position: relative;
+    height: 125px;
+    width: 125px;
+    padding: 3px;
+}
+.avatar {
+    height: 100%;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 700;
+    color: #353353;
+    font-family: "Rubik", sans-serif;
+}
+
+.job {
+    font-size: 13px;
+    color: #454360;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    margin-top: 5px;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: transparent;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #FF4C60;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Rubik", sans-serif;
+}
